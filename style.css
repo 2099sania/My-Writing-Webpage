@@ -63,6 +63,8 @@ body{
 	background-color: lightblue;
 	border-bottom: 5px solid rosybrown;
 	z-index: 1;
+	color: rosybrown;
+	text-align: center;
 }
 
 .container{
@@ -71,25 +73,26 @@ body{
 	background-color: lightblue;
 	position: relative;
 }
-
+																			
 .pita{
-	/*width: 225px;
-	height: 225px;*/
-	/*background-image: url(img/pitaa.png);
-	background-repeat: no-repeat;*/
+	width: 100px;
+	height: 100px;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
 	display: inline-block;
-	/*text-indent: -999999px;*/
+	text-indent: -999999px;
 	position: absolute;
 	top: -30px;
 	right: -50px;
 	text-decoration: none;
 	color: lightpink;
+	border-radius: 50%;
 }
-.pita:hover{
+/*.pita:hover{
 	background-color: lightslategray;
 	color: lightpink;
 	padding: 5px;
-}
+}*/
 
 .header{
 	padding: 20px;
@@ -112,13 +115,13 @@ body{
 }
 .header a:hover{
 	background-color: lightslategray;
-	color: lightpink;
+	color: rosybrown;
 }
 .hero{
 	height: 320px;
-	background-image: url(img/hero.png) ;
+	background-image: url(img/newhero.png) ;
 	background-size: cover;
-	background-position: 0 -100px ;
+	background-position: 0 -10px ;
 	border-top: 5px solid rosybrown ;
 	border-bottom: 5px solid rosybrown;
 }
@@ -140,7 +143,7 @@ body{
 }
 
 .main .penulis a{
-	color: lightpink;
+	color: rosybrown;
 	text-decoration: none;
 }
 .main .penulis a:hover{
